@@ -6,11 +6,22 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <div class="title">Etch-a-Sketch</div>
     <div class="menu">
         <button class="buttonClear">Clear</button>
-        
+        <button class="buttonSound">
+            <img class="speaker" src="volume.png">
+        </button>
+        <span>New grid size (from 1 to 64): </span>
+        <input type="text" name="grid-size">
+        <button class="buttonGenerate">Generate</button>
     </div>
     <div class="container"></div>
+    <div class="menu">
+        <button class="buttonSwitch">Switch black/colorful mode</button>
+    </div>
+
+    <audio class="sound" src="tink.wav"></audio>
 
     <script src="script.js"></script>
 </body>

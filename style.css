@@ -1,7 +1,79 @@
+.title {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #3e8e41; /* Green */
+    border: none;
+    color: white;
+    height: 20px;
+    padding: 4px 0;
+    vertical-align: middle;
+    display: table;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    margin: 25px auto;
+    width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: all 0.10s ease;
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
+
+.buttonSound {
+    height: 42px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+}
+
+img {
+    max-height: 42px;
+}
+
+span {
+    height: 48px;
+    margin-left: 78px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 26px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 1px;
+}
+
+.buttonGenerate {
+    margin-left: 10px;
+}
+
 .container {
-    margin: 40px auto;
-    height: 800px;
-    width: 800px;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
     box-shadow: 0px 0px 34px 2px rgba(0,0,0,0.75);
 }
 
@@ -10,6 +82,6 @@
     float: left;
 }
 
-.hover {
-    background-color: blue;
+.buttonSwitch {
+    width: 600px;
 }
